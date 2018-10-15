@@ -59,9 +59,9 @@ public void OnPluginStart()
 	
 	AutoExecConfig(true, "weapons");
 	
-	RegConsoleCmd("buyammo1", CommandWeaponSkins);
+	RegAdminCmd("buyammo1", CommandWeaponSkins,ADMFLAG_CUSTOM1, "Weapon skins menu");
 	RegAdminCmd("sm_ws", CommandWeaponSkins, ADMFLAG_CUSTOM1, "Weapon skins menu");
-	RegConsoleCmd("buyammo2", CommandKnife);
+	RegAdminCmd("buyammo2", CommandKnife, ADMFLAG_CUSTOM1, "Knife skins menu");
 	RegAdminCmd("sm_knife", CommandKnife, ADMFLAG_CUSTOM1, "Knife skins menu");
 	RegAdminCmd("sm_nametag", CommandNameTag, ADMFLAG_CUSTOM1, "Name tag");
 	RegConsoleCmd("sm_wslang", CommandWSLang);

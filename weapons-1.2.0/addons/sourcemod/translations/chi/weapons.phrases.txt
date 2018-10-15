@@ -1,4 +1,4 @@
-"Phrases"
+﻿"Phrases"
 {
 	"WSMenuTitle"
 	{
@@ -74,8 +74,8 @@
 	}
 	"DeleteNameTag"
 	{
-		"chi"	"删除名牌"
-	}
+		"chi"	"删除铭牌"
+	}s
 	"OwnKnife"
 	{
 		"chi"	"你自己的刀"
